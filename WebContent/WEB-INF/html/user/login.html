@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>用户登录</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/user/css/reset.css">
+        <link rel="stylesheet" href="./assets/user/css/supersized.css">
+        <link rel="stylesheet" href="./assets/user/css/style.css">
+        
+        		
+        <!-- Javascript -->
+        <script src="./assets/user/js/jquery-1.8.2.min.js"></script>
+        <script src="./assets/user/js/CryptoJS/core.js"></script>
+        <script src="./assets/user/js/CryptoJS/md5.js"></script>
+        <script src="./assets/user/js/supersized.3.2.7.min.js"></script>
+        <script src="./assets/user/js/supersized-init.js"></script>
+        <script src="./assets/user/js/scripts.js"></script>
+        
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+        <div class="page-container">
+            <h1>用户登录</h1>
+            <form id="logininfo" action="#">
+                <input type="text" id="email" name="email" class="email" placeholder="邮箱">
+                <input type="password" id="password" name="password" class="password" placeholder="密码">
+                <input type="text" id="verifycode" name="verifycode" class="verifycode" placeholder="验证码">
+                <button type="submit">提交</button>
+                <div class="error">
+                	<span></span>
+                </div>
+                <div class="verifycodediv">
+                	<span>
+                		<img title="点击刷新验证码" alt="验证码图片" id="verifycodeimg" name="verifycodeimg" src="get_verify_code.action" width="130px" height="50px">
+                	</span>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
+
+

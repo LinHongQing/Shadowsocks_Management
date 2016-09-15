@@ -1,0 +1,1 @@
+{"dbPort":"3306","dbUsername":"root","dbName":"shadowsocks","dbAddress":"127.0.0.1","userDefaultLoginPassword":"123456","userDefaultClientPassword":"123456","dbPassword":"admin"}
